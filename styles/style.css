@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#f3f5fc;
+    font-family: Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+.Logo{
+    margin-top: 40px;
+    margin-left:100px;
+}
+
+
+.Pagina_Principal{
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+}
+.Input_Usuario{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    padding-right: 70px;
+}
+.Cuadro_Texto {
+    margin-top: 10px;
+    background-color: #f3f5fc;
+    border: none;
+    color: darkblue;
+    width: 100%;
+    height: 90%;
+    outline: 0;
+    padding: 0;
+    font-size:1em;
+}
+
+.Cuadro_Texto::placeholder {
+    color:#0A3871;
+    font-size:20px;
+}
+
+
+.Mensaje_Minusculas_SinAcentos{
+    display:flex;
+    flex-direction: row;
+}
+
+.Signo_Admiracion{
+    width: 15px;
+    height: 15px;
+}
+
+
+.Botones{
+    margin-top: 20px;
+}
+
+.Boton_Encriptador{
+    background-color:#0A3871;
+    border-radius:12px;
+    color:white;
+    border:1px solid #0A3871;
+    padding:10px 110px;
+    cursor:pointer;
+}
+.Boton_Desencriptador{
+    background-color:#D8DFE8;
+    border-radius:12px;
+    border:1px solid darkblue;
+    color:darkblue;
+    padding:10px 100px;
+    cursor:pointer;
+}
+
+
+.Box {
+    background-color: white;
+    border-radius: 20px;
+    padding: 150px 0;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    width: 300px;
+    height: 300px;
+
+}
+
+.Muñeco{
+    width: 300px;
+    height: 300px;
+}
+
+.Mensaje_Encriptado{
+    color:#0A3871;
+    font-size: 20px;
+}
+
+.Boton_Copiar {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: white;
+    color: #0A3871;
+    border: 2px solid #0A3871;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 70%;
+    text-align: center;
+}
+
+.Boton_Copiar:hover {
+    background-color: #0A3871;
+    color: white;
+}
+
+@media (max-width: 1441px){
+    .Cuadro_Texto{
+        height: 700px;
+    }
+}
+@media (max-width: 1175px){
+   .Logo{
+        border: 0px 0px;
+        margin-left: 50px;
+   }
+}
+@media (max-width: 1092px){
+   .Box{
+        margin-right: 60px;
+   }
+   .Logo{
+        border: 0px 0px;
+        margin-left: 30px;
+   }
+}
+@media (max-width: 1053px){
+   .Logo{
+        border: 0px 0px;
+        margin-left: 30px;
+   }
+}
+
+
+@media (max-width: 973px){
+    .Logo{
+        border: 0px 0px;
+        margin-left: 20px;
+    }
+    .Box{
+        margin-right: 100px;
+    }
+    .Input_Usuario{
+        margin-left: 100px;
+        padding-right: 20px;
+    }
+    .Boton_Desencriptador{
+        padding:10px 249px;
+    }
+    .Boton_Encriptador{
+        padding:10px 260px;
+    }
+    
+
+}
+@media (max-width: 926px){
+    .Logo{
+        border: 0px 0px;
+        padding-left: 50px;
+    }
+    .Pagina_Principal{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .Cuadro_Texto{
+        width: 400px;
+        
+    }
+    .Boton_Desencriptador{
+        padding:10px 149px;
+    }
+    .Boton_Encriptador{
+        padding:10px 160px;
+    }
+}
+@media (max-width: 919px){
+    .Logo{
+        border: 0px 0px;
+        margin-left: 0px;
+   }
+}
+@media (max-width: 768px){
+    .body{
+        margin:0;
+    }
+    .Logo{
+        border: 0px 0px;
+        padding-left: 30px;
+   }
+    .Pagina_Principal{
+        display:flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-right: 0;
+        width: 670px;
+        
+        
+    }
+    .Input_Usuario{
+        margin:0px 0px;
+        padding:0px 0px;
+        width: 640px;
+        
+    }
+    .Cuadro_Texto{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 640px;
+        height: 620px;
+        margin-bottom: 10px;
+        
+    }
+    .Cuadro_Texto::placeholder {
+        font-size:40px;
+    }
+    .Botones{
+        display:flex;
+        flex-direction: row;
+        margin:0px 0px;
+    }
+    .Boton_Encriptador{
+        padding:20px 125px;
+        margin-right: 5px;
+    }
+    .Boton_Desencriptador{
+        padding:20px 115px;
+        margin-left: 5px;
+    }
+    .Mensaje_Minusculas_SinAcentos{
+        margin-bottom: 10px;
+    }
+    .Box{
+        height: 133px;
+        width: 640px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 30px;
+    }
+    .Muñeco{
+        display:none;
+    }
+}
+@media (max-width: 562px){
+    .Box{
+        height: 300px;
+        width:600px;
+    }
+    .Input_Usuario{
+        width:600px;
+    }
+    .Cuadro_Texto{
+        width:600px;
+    }
+    .Boton_Encriptador{
+        padding:20px 119px;
+        margin-right: 5px;
+    }
+    .Boton_Desencriptador{
+        padding:20px 105px;
+        margin-left: 5px;
+    }
+}
+@media (max-width:376px){
+    .Input_Usuario{
+        width:570px;
+    }
+    .Cuadro_Texto{
+        width:570px;
+    }
+    .Botones{
+        display:flex;
+        flex-direction: column;
+    }
+    .Boton_Encriptador{
+        padding:20px 234px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    .Boton_Desencriptador{
+        padding:20px 227px;
+        margin-top: 10px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    .Box{
+        font-size:28px;
+        width:570px;
+        margin-right: 0;
+    }
+}
