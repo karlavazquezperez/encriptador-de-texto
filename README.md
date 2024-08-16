@@ -48,6 +48,6 @@ El Encriptador de Texto es una aplicación web que permite encriptar y desencrip
 
 ## Autora
 
-- **Karla Vázquez Pérez** - [LinkedIn](www.linkedin.com/in/karla-vazquez-perez) - [GitHub](https://github.com/karlavazquezperez)
+- **Karla Vázquez Pérez** - [GitHub](https://github.com/karlavazquezperez)
 
 
